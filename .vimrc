@@ -14,10 +14,10 @@ call vundle#begin()
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 "Plugin 'SirVer/ultisnips'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+"Plugin 'MarcWeber/vim-addon-mw-utils'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'garbas/vim-snipmate'
+"Plugin 'honza/vim-snippets'
 Bundle 'magarcia/vim-angular2-snippets'
 call vundle#end()            " required
 filetype plugin indent on    " required

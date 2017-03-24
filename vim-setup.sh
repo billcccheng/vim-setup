@@ -3,7 +3,8 @@ cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/jistr/vim-nerdtree-tabs.git
 git clone https://github.com/scrooloose/nerdcommenter.git
-git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
+git clone https://github.com/itchyny/lightline.vim 
+git clone https://github.com/VundleVim/Vundle.vim.git 
 git clone https://github.com/mattn/emmet-vim.git
 git clone https://github.com/tomtom/tlib_vim.git
 git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
