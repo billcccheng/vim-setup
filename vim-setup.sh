@@ -1,3 +1,6 @@
+mv .vimrc ~/
+mv .tmux.conf ~/
+
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
@@ -14,6 +17,3 @@ git clone https://github.com/honza/vim-snippets.git
 mkdir ~/.vim/colors
 cd ~/.vim/colors
 wget http://billcccheng.github.io/pages/monokai.vim
-
-mv .vimrc ~/
-mv .tmux.conf ~/
