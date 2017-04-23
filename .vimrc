@@ -95,6 +95,12 @@ nnoremap <leader>t :NERDTreeToggle <cr>
 nnoremap <leader>n :cnext <cr>
 nnoremap <leader>p :cprevious <cr>
 
+"Moving in insert mode
+inoremap <C-h> <C-o>h
+inoremap <C-j> <C-o>j
+inoremap <C-k> <C-o>k
+inoremap <C-l> <C-o>l
+
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 
