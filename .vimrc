@@ -38,7 +38,7 @@ syntax on
 filetype plugin indent on
 set nocompatible
 set number
-set expandtab
+set noexpandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
