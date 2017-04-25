@@ -11,10 +11,10 @@ git clone https://github.com/scrooloose/nerdcommenter.git
 git clone https://github.com/itchyny/lightline.vim 
 git clone https://github.com/VundleVim/Vundle.vim.git 
 git clone https://github.com/mattn/emmet-vim.git
-git clone https://github.com/tomtom/tlib_vim.git
-git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
 git clone https://github.com/garbas/vim-snipmate.git
 git clone https://github.com/honza/vim-snippets.git
 git clone https://github.com/mxw/vim-jsx.git
 git clone git://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/leafgarland/typescript-vim.git
+#git clone https://github.com/tomtom/tlib_vim.git
+#git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
