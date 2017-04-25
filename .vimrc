@@ -101,6 +101,9 @@ inoremap <C-j> <C-o>j
 inoremap <C-k> <C-o>k
 inoremap <C-l> <C-o>l
 
+" Allow JSX in normal JS files
+let g:jsx_ext_required = 0
+
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 
