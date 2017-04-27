@@ -55,6 +55,7 @@ nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
+inoremap fj <C-o>a
 nnoremap <TAB> <C-w>w
 " Open Stuffs in vim
 nnoremap <C-g> :!open %<CR>
