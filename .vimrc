@@ -60,7 +60,7 @@ nnoremap <TAB> <C-w>w
 " Open Stuffs in vim
 nnoremap <C-g> :!open %<CR>
 "Map Markdown Preview
-nmap lp :LivedownPreview<CR>
+nnoremap dp :LivedownPreview<CR>
 " }}}
 
 "AutoComplete Up and Down {{{
