@@ -1,6 +1,6 @@
 mv .vimrc ~/
 mv .tmux.conf ~/
-mkdir ~/.vim/colors
+mkdir -p ~/.vim/colors
 mv monokai.vim ~/.vim/colors
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
