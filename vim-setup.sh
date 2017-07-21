@@ -16,6 +16,8 @@ git clone git://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/leafgarland/typescript-vim.git
 git clone https://github.com/garbas/vim-snipmate.git
 git clone https://github.com/honza/vim-snippets.git
+git clone https://github.com/jelera/vim-javascript-syntax.git ~/.vim/bundle/vim-javascript-syntax
+
 #These two are for vim-snipmate
 git clone https://github.com/MarcWeber/vim-addon-mw-utils.git
 git clone https://github.com/tomtom/tlib_vim.git
