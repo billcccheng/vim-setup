@@ -99,7 +99,7 @@ hi javaScriptFuncArg ctermfg=214 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NON
 hi javaScriptString ctermfg=229 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi javaScriptRailsFunction ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
 hi javaScriptBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi javaScriptExceptions ctermfg=197 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
+hi javaScriptExceptions ctermfg=141 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi javaScriptSource ctermfg=197 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 "hi javaScriptObjectKey ctermfg=210 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 
