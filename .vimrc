@@ -1,5 +1,5 @@
-set foldmethod=marker
 colorscheme monokai
+
 "Vundle {{{
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -33,6 +33,10 @@ set nocompatible
 set number
 set showmatch
 set smartindent
+set autoindent
+set foldmethod=marker
+set cursorline
+set cursorcolumn
 set vb t_vb=  "stop beeping
 set pastetoggle=<leader>p
 execute pathogen#infect()
@@ -44,9 +48,9 @@ set noswapfile
 
 " Tab Stuffs {{{
 set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 " }}}
 
 "Keyboad Mapping {{{
@@ -66,20 +70,6 @@ nnoremap dp :LivedownPreview<CR>
 "AutoComplete Up and Down {{{
 inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
-" }}}
-
-"Set Vim Session{{{
-" Quick write session with F2
-nnoremap <F2> :mksession! ~/vim_session <cr>
-" And load session with F3
-nnoremap <F3> :source ~/vim_session <cr>
-"}}}
-
-"NERDTree Shortcut {{{
-nnoremap <leader>f :NERDTreeFind<cr>
-nnoremap <leader>o :NERDTreeTabsOpen <cr>
-nnoremap <leader>c :NERDTreeTabsClose <cr>
-nnoremap <leader>t :NERDTreeToggle <cr>
 " }}}
 
 "Moving in insert mode {{{
@@ -107,5 +97,3 @@ highlight nonText ctermbg=NONE
 " Allow JSX in normal JS files
 let g:jsx_ext_required = 0 
 
-set cursorline
-set cursorcolumn
