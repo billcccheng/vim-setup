@@ -25,6 +25,9 @@ git clone https://github.com/mxw/vim-jsx.git
 # Enhanced javascript syntax
 git clone https://github.com/jelera/vim-javascript-syntax.git
 
+# Graphql syntax
+git clone https://github.com/jparise/vim-graphql.git
+
 # These are for vim-snipmate
 git clone https://github.com/garbas/vim-snipmate.git
 git clone https://github.com/honza/vim-snippets.git
