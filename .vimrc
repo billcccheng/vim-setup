@@ -44,6 +44,9 @@ execute pathogen#infect()
 noremap <F5> :set hlsearch! hlsearch?<CR>
 " Set no swp file
 set noswapfile
+"Reloads buffer
+au CursorHold * checktime
+set autoread
 "}}}
 
 " Tab Stuffs {{{
