@@ -48,6 +48,9 @@ set noswapfile
 set autoread
 set updatetime=500
 au CursorHold,CursorHoldI * checktime
+
+" Trim Trailing White Space
+autocmd BufWritePre * :%s/\s\+$//e
 "}}}
 
 " Tab Stuffs {{{
