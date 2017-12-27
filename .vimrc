@@ -50,7 +50,14 @@ set updatetime=500
 au CursorHold,CursorHoldI * checktime
 
 " Trim Trailing White Space
-autocmd BufWritePre * :%s/\s\+$//e
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+
+autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 "}}}
 
 " Tab Stuffs {{{
