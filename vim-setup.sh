@@ -14,6 +14,8 @@ git clone https://github.com/scrooloose/nerdcommenter.git
 
 # Better UX for vim
 git clone https://github.com/itchyny/lightline.vim 
+git clone https://github.com/tpope/vim-fugitive.git
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
 git clone https://github.com/mattn/emmet-vim.git
 git clone git://github.com/jiangmiao/auto-pairs.git
 git clone git://github.com/tpope/vim-surround.git
