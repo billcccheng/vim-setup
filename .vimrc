@@ -40,8 +40,9 @@ set ignorecase
 set vb t_vb=  "stop beeping
 set pastetoggle=<leader>p
 execute pathogen#infect()
-"Press F4 to toggle highlighting on/off, and show current value.
+"Press F5 to toggle highlighting on/off, and show current value.
 noremap <F5> :set hlsearch! hlsearch?<CR>
+noremap <F4> :echo @%<CR>
 " Set no swp file
 set noswapfile
 
