@@ -100,7 +100,7 @@ nnoremap <leader>o :NERDTreeTabsOpen <cr>
 "nnoremap <leader>c :NERDTreeTabsClose <cr>
 nnoremap <leader>t :NERDTreeToggle <cr>
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'jellybeans',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
