@@ -103,6 +103,8 @@ nnoremap <leader>o :NERDTreeTabsOpen <cr>
 nnoremap <leader>t :NERDTreeToggle <cr>
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
+      \ 'separator': { 'left': ' ⮁', 'right': ''  },
+      \ 'subseparator': { 'left': '⮁', 'right': '⮃'  },
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
@@ -111,6 +113,7 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
+
 " }}}
 
 "Moving in insert mode {{{
