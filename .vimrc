@@ -76,17 +76,7 @@ nnoremap tk :tabnext<CR>
 nnoremap tj :tabprev<CR>
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
-inoremap <C-l> <C-o>l
 nnoremap <TAB> <C-w>w
-" Open Stuffs in vim
-nnoremap <C-g> :!open %<CR>
-"Map Markdown Preview
-nnoremap dp :LivedownPreview<CR>
-" }}}
-
-"AutoComplete Up and Down {{{
-inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
-inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 " }}}
 
 "Set Vim Session{{{
@@ -114,13 +104,6 @@ let g:lightline = {
       \ },
       \ }
 
-" }}}
-
-"Moving in insert mode {{{
-inoremap <C-h> <C-o>h
-inoremap <C-j> <C-o>j
-inoremap <C-k> <C-o>k
-inoremap <C-l> <C-o>l
 " }}}
 
 "vimgrep next {{{
