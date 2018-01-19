@@ -16,7 +16,8 @@ git clone https://github.com/scrooloose/nerdcommenter.git
 git clone https://github.com/itchyny/lightline.vim 
 git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/mattn/emmet-vim.git
-git clone git://github.com/jiangmiao/auto-pairs.git
+git clone https://github.com/jiangmiao/auto-pairs.git
+git clone https://github.com/tpope/vim-surround.git
 
 # Typescript and jsx highlighter
 git clone https://github.com/leafgarland/typescript-vim.git
