@@ -81,7 +81,7 @@ noremap <F5> :set hlsearch! hlsearch?<CR>
 "Paste without yanking
 xnoremap p pgvy 
 "Paste in insert mode
-imap <leader>pp <C-r>" 
+imap <C-v> <C-r>"
 " }}}
 
 "Set Vim Session{{{
