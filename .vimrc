@@ -86,9 +86,9 @@ imap <C-v> <C-r>"
 
 "Set Vim Session{{{
 " Quick write session with F2
-nnoremap <F2> :mksession! ~/vim_session <cr>
+nnoremap <F2> :mksession! ~/.vim/session/vim_session <cr>
 " And load session with F3
-nnoremap <F3> :source ~/vim_session <cr>
+nnoremap <F3> :source  ~/.vim/session/vim_session <cr>
 "}}}
 
 "NERDTree Shortcut and lightline{{{
