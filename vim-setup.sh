@@ -1,6 +1,7 @@
 cp .vimrc ~/
 cp .tmux.conf ~/
 mkdir -p ~/.vim/colors
+mkdir -p ~/.vim/session/
 cp monokai.vim ~/.vim/colors
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
