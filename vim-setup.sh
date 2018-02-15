@@ -25,7 +25,7 @@ git clone https://github.com/leafgarland/typescript-vim.git
 git clone https://github.com/mxw/vim-jsx.git
 
 # Enhanced javascript syntax
-git clone https://github.com/jelera/vim-javascript-syntax.git
+git clone https://github.com/pangloss/vim-javascript.git
 
 # Graphql syntax
 git clone https://github.com/jparise/vim-graphql.git
