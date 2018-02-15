@@ -10,7 +10,8 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-"Plugin 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'othree/yajs.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
