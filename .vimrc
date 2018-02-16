@@ -38,7 +38,7 @@ set showmatch
 set smartindent
 set autoindent
 set ignorecase
-set mouse=a
+"set mouse=a
 set vb t_vb=  "stop beeping
 set pastetoggle=<leader>p
 execute pathogen#infect()
