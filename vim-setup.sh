@@ -20,6 +20,9 @@ git clone https://github.com/mattn/emmet-vim.git
 git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/tpope/vim-surround.git
 
+# JavaScript Highlight
+git clone https://github.com/jelera/vim-javascript-syntax.git
+
 # Typescript and jsx highlighter
 git clone https://github.com/leafgarland/typescript-vim.git
 git clone https://github.com/mxw/vim-jsx.git
