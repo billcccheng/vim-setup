@@ -21,7 +21,9 @@ git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/tpope/vim-surround.git
 
 # JavaScript Highlight
-git clone https://github.com/pangloss/vim-javascript.git
+# Fall back to this js highlight if yajs is too slow
+# git clone https://github.com/pangloss/vim-javascript.git
+git clone https://github.com/othree/yajs.vim.git
 
 # Typescript and jsx highlighter
 git clone https://github.com/leafgarland/typescript-vim.git
