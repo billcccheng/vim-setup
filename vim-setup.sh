@@ -20,10 +20,13 @@ git clone https://github.com/mattn/emmet-vim.git
 git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/tpope/vim-surround.git
 
-# JavaScript Highlight
+# JavaScript Syntax Highlights
 # Fall back to this js highlight if yajs is too slow
 # git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/othree/yajs.vim.git
+
+# Python Syntax Highlights
+https://github.com/kh3phr3n/python-syntax.git
 
 # Typescript and jsx highlighter
 git clone https://github.com/leafgarland/typescript-vim.git
