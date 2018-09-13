@@ -109,7 +109,8 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
-
+set mouse=a
+let g:NERDTreeMouseMode=2
 " }}}
 
 "vimgrep next {{{
