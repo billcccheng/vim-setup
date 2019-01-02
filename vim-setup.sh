@@ -29,7 +29,7 @@ git clone https://github.com/ryanoasis/vim-devicons.git`
 git clone https://github.com/othree/yajs.vim.git
 
 # Python Syntax Highlights
-https://github.com/kh3phr3n/python-syntax.git
+git clone https://github.com/kh3phr3n/python-syntax.git
 
 # Typescript and jsx highlighter
 git clone https://github.com/leafgarland/typescript-vim.git
