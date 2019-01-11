@@ -123,11 +123,6 @@ nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 "}}}
 
-" Dark Background from monokai {{{
-highlight Normal ctermbg=NONE
-highlight nonText ctermbg=NONE
-" }}}
-
 "lint{{{
 "set statusline+=%#warningmsg#
 "set statusline+=%{SyntasticStatuslineFlag()}
