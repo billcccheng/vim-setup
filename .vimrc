@@ -95,7 +95,7 @@ nnoremap <F3> :source  ~/.vim/session/vim_session <cr>
 "NERDTree Shortcut and lightline{{{
 nnoremap <leader>f :NERDTreeFind<cr>
 nnoremap <leader>o :NERDTreeTabsOpen <cr>
-"nnoremap <leader>c :NERDTreeTabsClose <cr>
+nnoremap <leader>e :NERDTreeTabsClose <cr>
 nnoremap <leader>t :NERDTreeToggle <cr>
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
