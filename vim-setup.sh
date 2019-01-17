@@ -21,8 +21,9 @@ git clone https://github.com/jiangmiao/auto-pairs.git
 git clone https://github.com/tpope/vim-surround.git
 
 # Dev Icon for mac (it only works on mac for me)
-git clone https://github.com/ryanoasis/vim-devicons.git`
-`
+git clone https://github.com/ryanoasis/vim-devicons.git
+
+
 # JavaScript Syntax Highlights
 # Fall back to this js highlight if yajs is too slow
 # git clone https://github.com/pangloss/vim-javascript.git
@@ -37,6 +38,9 @@ git clone https://github.com/mxw/vim-jsx.git
 
 # Graphql syntax
 git clone https://github.com/jparise/vim-graphql.git
+
+# Dockerfile syntax
+git clone https://github.com/ekalinin/Dockerfile.vim.git
 
 # These are for vim-snipmate
 git clone https://github.com/garbas/vim-snipmate.git
