@@ -78,6 +78,8 @@ nnoremap tj :tabprev<CR>
 nnoremap th :tabfirst<CR>
 nnoremap tl :tablast<CR>
 nnoremap <TAB> <C-w>w
+nnoremap n nzz
+nnoremap N Nzz
 noremap <F5> :set hlsearch! hlsearch?<CR>
 "Paste without yanking
 xnoremap p pgvy 
