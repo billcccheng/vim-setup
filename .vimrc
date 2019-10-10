@@ -86,6 +86,10 @@ noremap <F5> :set hlsearch! hlsearch?<CR>
 xnoremap p pgvy 
 "Paste in insert mode
 imap <C-v> <C-r>"
+
+"Resizing project view
+nnoremap L :vertical resize +10<CR>
+nnoremap H :vertical resize -10<CR>
 " }}}
 
 "Set Vim Session{{{
