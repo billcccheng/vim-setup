@@ -136,7 +136,7 @@ vnoremap <leader>d "_d
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \}
-let g:ale_sign_error = '❌''
+let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '❗️'
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
