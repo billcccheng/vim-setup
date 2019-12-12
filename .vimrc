@@ -141,7 +141,7 @@ let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
 \}
-let g:ale_sign_error = '❌g'
+let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '❗️'
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
