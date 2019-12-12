@@ -108,8 +108,8 @@ nnoremap <leader>e :NERDTreeTabsClose <cr>
 nnoremap <leader>t :NERDTreeToggle <cr>
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
-      \ 'separator': { 'left': ' ⮁', 'right': ''  },
-      \ 'subseparator': { 'left': '⮁', 'right': '⮃'  },
+      \ 'separator': { 'left': ' >', 'right': ''  },
+      \ 'subseparator': { 'left': '>', 'right': '>'  },
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
@@ -132,15 +132,21 @@ nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 "}}}
 
-"jslint{{{
+"jslint and jsfixer{{{
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \}
-let g:ale_sign_error = '❌'
+let b:ale_fixers = {'javascript': ['prettier', 'eslint']}
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\}
+let g:ale_sign_error = '❌g'
 let g:ale_sign_warning = '❗️'
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
 highlight ALEWarning ctermbg=LightRed
+
 ""}}}
 
 
