@@ -70,6 +70,8 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype javascript.jsx setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 " }}}
 
 "Keyboad Mapping {{{
@@ -130,21 +132,17 @@ nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 "}}}
 
-"lint{{{
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
-"nnoremap <leader>s :SyntasticCheck<CR> :SyntasticToggleMode<CR>
-"let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
-"let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
-"let g:syntastic_javascript_checkers = ['eslint']
-
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 0
-"let g:syntastic_check_on_wq = 0
-
+"jslint{{{
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\}
+let g:ale_sign_error = '❌''
+let g:ale_sign_warning = '❗️'
+highlight clear ALEErrorSign
+highlight clear ALEWarningSign
+highlight ALEWarning ctermbg=LightRed
 ""}}}
+
 
 " Allow JSX in normal JS files
 let g:jsx_ext_required = 0
