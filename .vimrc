@@ -132,7 +132,7 @@ nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 "}}}
 
-"ALEGlobalConfig {{{
+"ALEGlobalConfig{{{
 let g:ale_sign_error = '❌ '
 let g:ale_sign_warning = '❗️'
 highlight clear ALEErrorSign
@@ -140,25 +140,19 @@ highlight clear ALEWarningSign
 highlight ALEWarning ctermbg=LightRed
 "}}}
 
-"jslint {{{
-let g:ale_linters = {
+"javascript and pyton linter/fixer {{{
+let b:ale_linters = {
 \   'javascript': ['eslint'],
+\   'python': ['flake8', 'pylint']
 \}
 let b:ale_fixers = {'javascript': ['prettier', 'eslint']}
-let g:ale_fixers = {
+let b:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
+\   'python': ['autopep8', 'yapf']
 \}
 ""}}}
 
-"python lint {{{
-" Check Python files with flake8 and pylint.
-let b:ale_linters = ['flake8', 'pylint']
-" Fix Python files with autopep8 and yapf.
-let b:ale_fixers = ['autopep8', 'yapf']
-" Disable warnings about trailing whitespace for Python files.
-let b:ale_warn_about_trailing_whitespace = 0
-""}}}
 
 " Allow JSX in normal JS files
 let g:jsx_ext_required = 0
