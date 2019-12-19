@@ -83,7 +83,7 @@ nnoremap tl :tablast<CR>
 nnoremap <TAB> <C-w>w
 nnoremap n nzz
 nnoremap N Nzz
-noremap <F5> :set hlsearch! hlsearch?<CR>
+noremap <leader>h :set hlsearch! hlsearch?<CR>
 "Paste without yanking
 xnoremap p pgvy 
 "Paste in insert mode
