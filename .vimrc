@@ -158,8 +158,7 @@ augroup myCmds
 au!
 autocmd VimEnter * silent !echo -ne "\e[2 q"
 augroup END
-}}}
-
+""}}}
 
 
 " Allow JSX in normal JS files
