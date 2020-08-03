@@ -153,6 +153,14 @@ let b:ale_fixers = {
 \}
 ""}}}
 
+" optional reset cursor on start:{{{
+augroup myCmds
+au!
+autocmd VimEnter * silent !echo -ne "\e[2 q"
+augroup END
+}}}
+
+
 
 " Allow JSX in normal JS files
 let g:jsx_ext_required = 0
