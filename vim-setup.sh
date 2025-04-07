@@ -53,3 +53,7 @@ git clone https://github.com/tomtom/tlib_vim.git
 
 # TMUX Plugin Mananger
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# Install catppuccin
+mkdir -p ~/.config/tmux/plugins/catppuccin
+git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
