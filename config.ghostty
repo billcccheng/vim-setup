@@ -1,0 +1,4 @@
+theme = Warm Matrix
+font-family = "Monaco"
+shell-integration-features = no-cursor
+cursor-style = block
